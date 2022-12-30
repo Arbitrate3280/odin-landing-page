@@ -207,3 +207,12 @@ button, .placeholder-pic, .call-to-action {
 }
 
 /* footer */
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color:#E5E7EB;
+    height: 80px;
+}
