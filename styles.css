@@ -153,4 +153,23 @@ button, .placeholder-pic {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #E5E7EB;
+    flex-basis: 500px;
 }
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 850px;
+}
+
+.source {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 595px;
+}
+
+/* bottom */
+
