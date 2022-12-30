@@ -89,7 +89,8 @@ button {
     width: 120px;
     height: 34px;
     background-color: #3882f6;
-    color: #E5E7EB;
+    color: #F9FAF8;
+    font-weight: bold;
     border-style: none;
 }
 
