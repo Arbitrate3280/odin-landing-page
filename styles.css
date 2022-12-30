@@ -80,7 +80,7 @@ ul.header-right {
     width: 450px;
 }
 
-button {
+button, .placeholder-pic {
     border-radius: 10px;
 }
 
@@ -108,3 +108,49 @@ button {
     color: #E5E7EB;
 }
 
+/* mid 1 */
+
+.mid1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.mid1-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.mid1-placeholder-div, .mid1-placeholders {
+    display: flex;
+}
+
+.mid1-placeholder-div {
+    gap: 50px;
+}
+
+.mid1-placeholders {
+    flex-direction: column;
+    width: 150px;
+    color: grey;
+    margin-top: 40px;
+    gap: 5px;
+}
+
+.placeholder-pic {
+    height: 150px;
+    border-style: solid;
+    color: #3882f6;
+}
+
+/* mid2 */
+
+.mid2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
