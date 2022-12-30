@@ -37,7 +37,7 @@ body {
     gap: 20px;
 }
 
-.header-right a {
+.header-right a, .subhero {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -53,9 +53,10 @@ ul.header-right {
 
 .top-content {
     display: flex;
-    flex: 1;
+    flex:10px 1;
     justify-content: center;
     align-items: center;
+    gap: 100px;
 }
 
 .content-left, .content-right {
@@ -68,4 +69,40 @@ ul.header-right {
     font-size: 48px;
     font-weight: bolder;
     width: 350px;
+}
+
+.hero, .subhero {
+    padding: 0;
+    margin: 0;
+}
+
+.subhero {
+    width: 450px;
+}
+
+button {
+    border-radius: 10px;
+}
+
+.content-left button {
+    margin-top: 10px;
+    width: 120px;
+    height: 34px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-style: none;
+}
+
+/* placeholder image top */
+
+.content-right {
+    background-color: grey;
+    width: 600px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right p {
+    color: #E5E7EB;
 }
