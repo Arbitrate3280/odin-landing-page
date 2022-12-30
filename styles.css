@@ -53,7 +53,7 @@ ul.header-right {
 
 .top-content {
     display: flex;
-    flex:10px 1;
+    flex: 1;
     justify-content: center;
     align-items: center;
     gap: 100px;
@@ -106,3 +106,4 @@ button {
 .content-right p {
     color: #E5E7EB;
 }
+
