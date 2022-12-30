@@ -80,11 +80,11 @@ ul.header-right {
     width: 450px;
 }
 
-button, .placeholder-pic {
+button, .placeholder-pic, .call-to-action {
     border-radius: 10px;
 }
 
-.content-left button {
+/* .content-left*/ button { 
     margin-top: 10px;
     width: 120px;
     height: 34px;
@@ -173,3 +173,37 @@ button, .placeholder-pic {
 
 /* bottom */
 
+.bottom {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    width: 1150px;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-text-1 {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-text-2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call-right button {
+    border-style: solid;
+    border-color: white;
+}
+
+/* footer */
