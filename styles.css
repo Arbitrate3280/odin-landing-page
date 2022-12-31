@@ -14,32 +14,31 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    height: 500px;
+    height: 50vh;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 40px;
-    /* padding: 13px; */
+    height: 4vh;
 }
 
 .header-left {
     margin-left: 12%;
-    font-size: 24px;
+    font-size: 1.2vw;
     color: #F9FAF8;
     font-weight: bold;
 }
 
 .header-right {
     display: flex;
-    gap: 20px;
+    gap: 1vw;
 }
 
 .header-right a, .subhero {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 0.95vw;
     color: #E5E7EB;
 }
 
@@ -56,7 +55,7 @@ ul.header-right {
     flex: 1;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 5vw;
 }
 
 .content-left, .content-right {
@@ -66,9 +65,9 @@ ul.header-right {
 
 .hero {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 2.5vw;
     font-weight: bolder;
-    width: 350px;
+    width: 23vw;
 }
 
 .hero, .subhero {
@@ -77,17 +76,17 @@ ul.header-right {
 }
 
 .subhero {
-    width: 450px;
+    width: 24vw;
 }
 
 button, .placeholder-pic, .call-to-action {
     border-radius: 10px;
 }
 
-/* .content-left*/ button { 
-    margin-top: 10px;
-    width: 120px;
-    height: 34px;
+button { 
+    margin-top: 2%;
+    width: 6vw;
+    height: 3.4vh;
     background-color: #3882f6;
     color: #F9FAF8;
     font-weight: bold;
@@ -98,8 +97,8 @@ button, .placeholder-pic, .call-to-action {
 
 .content-right {
     background-color: grey;
-    width: 600px;
-    height: 250px;
+    width: 31vw;
+    height: 25vh;
     align-items: center;
     justify-content: center;
 }
@@ -113,13 +112,13 @@ button, .placeholder-pic, .call-to-action {
 .mid1 {
     display: flex;
     flex-direction: column;
-    flex-basis: 500px;
+    height: 50vh;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 2.7%;
 }
 
 .mid1-header {
-    font-size: 36px;
+    font-size: 1.9vw;
     font-weight: bolder;
     color: #1F2937;
 }
@@ -129,19 +128,19 @@ button, .placeholder-pic, .call-to-action {
 }
 
 .mid1-placeholder-div {
-    gap: 50px;
+    gap: 2.6vw;
 }
 
 .mid1-placeholders {
     flex-direction: column;
     width: 150px;
     color: grey;
-    margin-top: 40px;
-    gap: 5px;
+    margin-top: 5.4%;
+    gap: 0.5vh;
 }
 
 .placeholder-pic {
-    height: 150px;
+    height: 15vh;
     border-style: solid;
     color: #3882f6;
 }
@@ -154,21 +153,21 @@ button, .placeholder-pic, .call-to-action {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    flex-basis: 500px;
+    height: 50vh;
 }
 
 .quote {
     color: #1F2937;
-    font-size: 36px;
+    font-size: 1.87vw;
     font-style: italic;
-    width: 850px;
+    width: 45vw;
 }
 
 .source {
     align-self: flex-end;
-    font-size: 24px;
+    font-size: 1.25vw;
     font-weight: bold;
-    margin-right: 595px;
+    margin-right: 31%;
 }
 
 /* bottom */
@@ -176,15 +175,15 @@ button, .placeholder-pic, .call-to-action {
 .bottom {
     display: flex;
     flex-direction: column;
-    flex-basis: 500px;
+    height: 50vh;
     justify-content: center;
     align-items: center;
 }
 
 .call-to-action {
     background-color: #3882f6;
-    width: 1150px;
-    height: 160px;
+    width: 60vw;
+    height: 16vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -193,11 +192,11 @@ button, .placeholder-pic, .call-to-action {
 .call-text-1 {
     color: #F9FAF8;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.25vw;
 }
 
 .call-text-2 {
-    font-size: 18px;
+    font-size: 0.95vw;
     color: #E5E7EB;
 }
 
@@ -214,5 +213,5 @@ button, .placeholder-pic, .call-to-action {
     justify-content: center;
     align-items: center;
     color:#E5E7EB;
-    height: 80px;
+    height: 8vh;
 }
