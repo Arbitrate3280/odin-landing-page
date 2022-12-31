@@ -87,6 +87,7 @@ button {
     margin-top: 2%;
     width: 6vw;
     height: 3.4vh;
+    font-size: 0.65vw;
     background-color: #3882f6;
     color: #F9FAF8;
     font-weight: bold;
@@ -129,12 +130,14 @@ button {
 
 .mid1-placeholder-div {
     gap: 2.6vw;
+    flex-wrap: wrap;
 }
 
 .mid1-placeholders {
     flex-direction: column;
     width: 150px;
     color: grey;
+    font-size: 0.85vw;
     margin-top: 5.4%;
     gap: 0.5vh;
 }
